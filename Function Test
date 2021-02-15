@@ -1,0 +1,11 @@
+#Function Test
+
+#R Code
+minput<-matrix(sample(50:10,4),2,2)
+minput1<-makeCacheMatrix(minput)
+cacheSolve(minput1)
+
+#Result
+             [,1]         [,2]
+[1,] -0.005154639  0.021649485
+[2,]  0.025773196 -0.008247423
